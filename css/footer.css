@@ -1,0 +1,23 @@
+/* hover */
+.info-menu a:hover,.help p a:hover{text-decoration:none;color:#f60;}
+/* the first */
+.footer-first{min-width:1200px;background:#da0205;width:100%;float:left;}
+.server{width:1200px;float:left;}
+.my_server{float:left;width:299px;height:70px;padding:10px 0 10px 49px;}
+.my_server_intr>p{margin:0;color:#fff;font-size:12px;}
+.my_server_intr>h5{color:#fff;}
+.my_server_img{width:49px;float:left;}
+.my_server_intr{width:100px;float:left;}
+/* the second */
+.footer-second{float:left;width:100%;min-width:1200px;padding:20px 0;}
+.help-list{float:left;width:1200px;}
+.help{float:left;width:200px;}
+.help p{margin:0;}
+.help p a{display:block;font-size:12px;color:#666;height:22px;}
+.help h6{height:30px;margin:0;}
+/* the third */
+.footer-info{float:left;width:100%;min-width:1200px;padding:20px 0;}
+.info-menu{float:left;width:1200px;padding:10px 0;text-align:center;}
+.info-menu a{color:#666;font-size:12px;display:inline-block;height:13px;line-height:13px;padding:0 10px;border-left:2px solid #c1c1c1;}
+.info-menu a:first-child{border:0;}
+.info-p{float:left;color:#666;width:1200px;line-height:24px;margin-top:20px;text-align:center;font-size:12px;}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="boot/css/bootstrap.css">
+        <script src="boot/js/jquery.min.js"></script>
+        <script src="boot/js/popper.min.js"></script>
+        <script src="boot/js/bootstrap.min.js"></script>
+        <style>
+            *{margin:0;padding:0;}
+            /* the first */
+            .header-top{height:35px;border-bottom:1px solid #ededed;background:#f9f7f6;}
+            .welcome{float:left;padding-left:100px;}
+            .login{float:right;}
+            .header-top>div>p{color:#333;height:35px;line-height:35px;font-size:12px;white-space: nowrap;text-overflow: ellipsis;}
+            .login>a{color:#333;height:35px;line-height:35px;padding:0 10px;font-size:12px;}
+            .login>a:hover{color:#f60;text-decoration:none;}
+            .carousel{height:35px;width:300px;float:right;}
+            .carousel-inner{height:35px;padding-left:15px;}
+            .carousel-item>p{
+                height:35px;line-height:35px;margin-top:1px;font-size:12px;color:#f60;}
+            .carousel-item>p>a{color:#000;}
+            .carousel-item>p>a:hover{text-decoration:none;}
+            /* the second */
+            .search{padding-left:35px;}
+            .flower{padding-left:130px;}
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid pr-0 pl-0">
+            <!-- 第一行 -->
+            <div class="header-top">
+                <div class="welcome">
+                    <p class="mb-0">您好,欢迎来到康辉!</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide pl-5" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <p class="mb-0">136***3小时前评论了<a href="#">&nbsp;峨眉乐山2日游</a></p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="mb-0">189***2小时前评论了<a href="#">&nbsp;稻城亚丁7日游</a></p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="mb-0">23545***35分钟前评论了<a href="#">&nbsp;若尔盖红原9日游</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="login">
+                            <a href="#">登录</a>
+                            <a href="#">注册</a>
+                            <a href="#">订单查询</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 第二行 -->
+            <div class="row">
+            
+                <div class="logo col-lg-4">
+                    <a href="#"><img src="img/header/logo.jpg" alt="logo"></a>
+                </div>
+                <div class="search col-lg-4">
+                    <div class="btn-group">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  线路 <span class="caret"></span>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">特价</a></li>
+                                <li><a href="#">签证</a></li>
+                                <li><a href="#">酒店</a></li>
+                                <li><a href="#">攻略</a></li>
+                            </ul>
+                    </div>
+                    <input type="text" placeholder="暹罗">
+                    <button>搜索</button>
+                </div>
+                <div class="flower col-lg-4">
+                    <img src="img/header/flower.png" alt="flower">
+                    <div class="phone">
+                        <p>028-86930099</p>
+                        <p>86088606</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </body>
+</html>

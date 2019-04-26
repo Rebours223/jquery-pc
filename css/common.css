@@ -1,0 +1,10 @@
+/* clear margin and padding */
+*{margin:0;padding:0;}
+/* float layout */
+.w-1200{width:1200px;margin:0 auto;position:relative;}
+.w-1200:before,.w-1200:after{content:".";display:block;height:0;clear:both;overflow:hidden;}
+.w-1200-item{min-width:1200px;width:100%;float:left;}
+/* hover */
+.hover-orange:hover{text-decoration:none;color:#f60;}
+/* hide */
+.hide{display:none;}

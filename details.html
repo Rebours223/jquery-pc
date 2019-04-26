@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="cmn-Hans-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="boot/css/bootstrap.css">
+    <script src="boot/js/jquery.min.js"></script>
+    <script src="boot/js/popper.min.js"></script>
+    <script src="boot/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/details.css">
+</head>
+<body>
+    <header id="header"></header>
+    <main>
+        <div class="big">
+          <div class="w-1200">
+            <!-- 导航 -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="http://127.0.0.1:5500/index1.html">首页</a></li>
+                  <li class="breadcrumb-item"><a href="#"></a></li>
+                  <li class="breadcrumb-item active" aria-current="page"></li>
+                </ol>
+            </nav>
+            <div>
+              <div class="detail-list">
+                <h3></h3>
+                <p class="pid">线路编号：113353 </p>
+                <!-- 第一部分 -->
+                <div class="row">
+                    <div class="col-6">
+                        <img src alt="1" class="detail-pic">
+                    </div>
+                    <div class="col-6">
+                        <h3></h3>
+                        <ul class="detail_ul">
+                            <li>
+                                套餐类型:<input type="checkbox">成人
+                            </li>
+                            <li>
+                                <!-- <div class="dropdown">
+                                    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      2019.04.09 ¥3999元/成人
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">2019.04.10 ¥3999元/成人</a>
+                                      <a class="dropdown-item" href="#">2019.04.11 ¥3999元/成人</a>
+                                      <a class="dropdown-item" href="#">2019.04.12 ¥3999元/成人 here</a>
+                                    </div>
+                                </div> -->
+                                <div class="form-group mb-0">
+                                        <label for="sel1">出发日期:</label>
+                                        <select class="form-control" id="sel1">
+                                          <option value="3999"  selected>2019.04.10 ¥3999元/成人</option>
+                                          <option value="3599">2019.04.12 ¥3599元/成人</option>
+                                          <option value="3699">2019.04.15 ¥3699元/成人</option>
+                                          <option value="3399">2019.04.18 ¥3399元/成人</option>
+                                        </select>
+                                      </div>
+                            </li>
+                            <li>
+                                出游人数:
+                                <button class="der">-</button><input type="text" value="1" id="num"><button class="add">+</button>
+                            </li>
+                            <li>
+                                <span></span>
+                            </li>
+                            <li>
+                                <span></span>
+                            </li>
+                            <li>
+                                <button type="button" class="cal">计算总价:</button>
+                                <span id="pay">¥ 3999.00</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 第二部分 -->
+              </div>
+              <div class="detail-intr">
+                  <!-- 导航条 -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#l1">行程安排</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#l2">签约流程<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#l3">常见问题</a>
+                        </li>
+                      </ul>
+                    </div>
+                </nav>
+                <!-- 行程安排 -->
+                <ul class="Plan">
+                    <li id="l1">
+                        <h3>行程安排</h3>
+                        <ul class="plan">
+                            <li>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="l2">
+                        <h3>签约流程</h3>
+                        <p>网上预订：直接通过网站下单，在线选择产品并填写相关信息后，提交订单。</p>
+                        <p>在线预订：拨打咨询/预订电话，由客服帮助您完成信息的确认和下单操作。</p>
+                    </li>
+                    <li id="l3">
+                        <h3>常见问题</h3>
+                        <ul class="qa">
+                            <li>
+                                <h6>咨询问题:</h6>
+                                <p>6人英国自由行，直飞7月18日-7月30日，想咨询下机票价格？</p>
+                                <h6>客服回复:</h6>
+                                <p>您好，客服小游已与您联系</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer id="footer"></footer>
+    <script src="js/details.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

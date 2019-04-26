@@ -1,0 +1,17 @@
+.my_login{float:left;width:100%;height:540px;position:relative;z-index:99;background:url(../img/login/login.jpg) no-repeat;}
+.login-box{width:1200px;height:540px;margin:0 auto;position:relative;}
+.login-list{position:absolute;top:30%;left:50%;width:370px;padding:15px 50px;margin-left:80px;background:rgba(255,255,255,.8);border-radius: 4px;}
+.login-header .item{display:inline-block;width:100%;padding:10px 0;position:relative;text-align:center;font-size:14px;}
+.login-header .item.on{color:#0082dd;}
+.login-header .item.on:after{content:".";display:block;width:100%;height:2px;position:absolute;left:0;bottom:-1;background:#0082dd;}
+.login-inputs{list-style:none;}
+.login-inputs>li{height:40px;margin-top:13px;position:relative;border-bottom:wpx solid #cedbe7;background:#fff;}
+.login-inputs>li>input{width:270px;height:40px;line-height:40px;padding:0 10px 0 45px;font-size:14px;}
+.login-inputs>li:nth-child(4) input{padding-left:10px;}
+.login-inputs>li> .icon{display:inline-block;width:24px;height:24px;position:absolute;top:8px;left:8px;border-right:1px solid #ccc;background:url(../img/login/st-userlogin-bg.png) no-repeat;} 
+.login-inputs>li:nth-child(2)> .icon{background-position:0 -48px;}
+.login-inputs>li:nth-child(4)>button{height:40px;line-height:40px;text-align:center;font-size:16px;background:#0082dd;color:#fff;border:0;width:270px;}
+.login-info{padding:10px 0;}
+.login-info span{font-size:12px;}
+.login-info>span:last-child{padding-top:2px;}
+.login-info span>a{color:#f60;}
